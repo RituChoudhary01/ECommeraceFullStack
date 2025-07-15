@@ -76,7 +76,7 @@ function Navbar() {
     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
     <a
-   href="https://e-commerace-dashboard.vercel.app/orders"
+   href="https://e-commerace-dashboard.vercel.app/"
    target="_blank"
    rel="noopener noreferrer"
   className="py-2 pl-6 border"
