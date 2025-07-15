@@ -32,7 +32,7 @@ function Navbar() {
       <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
      </NavLink>
      <a
-     href="https://e-commerace-dashboard.vercel.app/orders"
+     href="https://e-commerace-dashboard.vercel.app/"
      target="_blank"
      rel="noopener noreferrer"
       className="hidden md:block w-2/4"
