@@ -56,6 +56,6 @@ Built with a clean UI, full authentication flow, admin control, and Stripe and r
 - **Backend** → Node.js, Express  
 - **Database** → MongoDB + Mongoose  
 - **Authentication** → JWT + Bcrypt  
-- **Payment** → Stripe  
+- **Payment** → Stripe, razorpay 
 - **Email Service** → Nodemailer  
-- **Deployment** → Vercel (Frontend) + Render (Backend)
+
