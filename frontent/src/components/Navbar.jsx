@@ -32,10 +32,10 @@ function Navbar() {
       <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
      </NavLink>
      <a
-     href="http://localhost:5174"
+     href="https://e-commerace-dashboard.vercel.app/orders"
      target="_blank"
-    rel="noopener noreferrer"
-    className= "w-2/4 "
+     rel="noopener noreferrer"
+      className="hidden md:block w-2/4"
   >Admin Dashboard</a>
   </ul>
      <div className='flex items-center gap-6'>
@@ -75,6 +75,14 @@ function Navbar() {
     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
+    <a
+   href="https://e-commerace-dashboard.vercel.app/orders"
+   target="_blank"
+   rel="noopener noreferrer"
+  className="py-2 pl-6 border"
+  >
+  Admin Dashboard
+</a>
     </div>
     </div>
     </div>
